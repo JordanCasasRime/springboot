@@ -1,0 +1,21 @@
+server:
+  servlet:
+    context-path: /sav-backend/
+
+spring:
+#  jpa:
+#    database-platform: org.hibernate.dialect.Oracle10gDialect
+#    show-sql: true
+  datasource:
+#    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:mysql://mwgmw3rs78pvwk4e.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/i49rohabt1zb3zq7
+    username: iilz84uwkqmq70zk
+    password: ejl4wekdxkve2whm
+#  jackson:
+#    default-property-inclusion: NON_NULL
+#    deserialization:
+#      FAIL_ON_UNKNOWN_PROPERTIES: false
+#      FAIL_ON_READING_DUP_TREE_KEY: true
+#      FAIL_ON_IGNORED_PROPERTIES: false
+#    serialization:
+#      INDENT_OUTPUT: true
